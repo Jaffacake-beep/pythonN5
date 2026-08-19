@@ -1,0 +1,5 @@
+computing= input("What did you get on the computing exam? ")
+maths= input( "What did you get on the maths exam ? ")
+English= input("What did you get on the English exam? ")
+print("You got " + computing + " in computing, " + maths + " in maths and " + English + " in English /3.")
+print(" Note= make sure it is in two decimal points")

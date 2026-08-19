@@ -1,0 +1,8 @@
+print("ASCII Art")
+print ("apple logo")
+print("   /\\") 
+print("  /  \\")
+print(" /    \\") 
+print(" \\    /")
+print (   "  \\  /")
+print("   \\/")             

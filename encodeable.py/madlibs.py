@@ -1,0 +1,7 @@
+name = input("What is your name? ")
+adjective = input("Add an adjective: ")
+verb = input("Add a verb: ")
+place = input("Add a place: ")
+food= input("Add a food: ")
+vehicle = input("Add a vehicle: ")
+print(name + " is a " + adjective + " person. They like to " + verb + " in the " + place + ". They also like to eat " + food + " and drive a " + vehicle + ".")
