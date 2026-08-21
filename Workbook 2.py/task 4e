@@ -2,6 +2,6 @@
 ask = input("What is your password? ").strip().lower()
 
 if ask == "password123":
- print("Access granted!")
+    print("Access granted!")
 else:
-     print("Access denied.")
+    print("Access denied.")

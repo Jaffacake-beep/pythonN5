@@ -1,7 +1,8 @@
-# Simple IF/ELSE statement 
-ask = input("What is your password? ").strip().lower()
+# Simple IF/Else statement
+ask = input("What did you get out of 70 in your test? ")
+calculation = (float(ask) / 70) * 100
 
-if ask == "password123":
- print("Access granted!")
+if calculation >= 50:
+    print("You passed!")
 else:
- print("Access denied.")
+    print("You failed.")

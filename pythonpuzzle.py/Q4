@@ -1,0 +1,13 @@
+additionalRows = int(input("Please enter the number of additional rows included for free: "))
+
+specialOffer = input("Is a special offer running? (y/n): ")
+
+widthOfSquarePacks = int(input("Please enter the number of additional rows included for free: "))
+
+widthOfSquarePacks = widthOfSquarePacks + additionalRows if specialOffer == "y" else widthOfSquarePacks
+
+lengthOfSquarePacks = int(input("Enter the length of square packs being made: "))
+
+totalNumberOfCans = lengthOfSquarePacks * widthOfSquarePacks
+
+print("The total number of cans needed is:", totalNumberOfCans)
