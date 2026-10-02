@@ -1,0 +1,9 @@
+startMiles=0
+for station in range(7):
+    currentMiles= int(input("Enter current mileage: "))
+    validKWrating = int(input("Enter valid kw rating : "))
+    while validKWrating <7 or validKWrating >50:
+        print (" Error. Please try again")
+        validKWrating = int(input("Enter valid kw rating : "))
+        if validKWrating == 7:
+            pricePerMile = 0 
