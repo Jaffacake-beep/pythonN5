@@ -1,0 +1,43 @@
+# structure diagrams 
+# snowfall analysis program 
+
+from operator import add
+
+
+print("Welcome to the Snowfall Analysis Program!") 
+snowfall_measurement = 0
+snowfall_Total = 10
+day_Counter = 5
+answer = input("Do you want to continue? (yes/no): ")
+yes = "yes"
+no = "no"
+
+while snowfall_measurement == 0:
+    calculate_average_snowfall= input("Please enter the snowfall measurement (in inches): ")
+    snowfall_measurement = float(calculate_average_snowfall)
+    print(f"The average snowfall is {snowfall_measurement:.2f} inches.")
+
+    while snowfall_measurement!= 0:
+        
+      print (" Error message: Please enter a valid snowfall measurement (in inches): ")
+    print( " try again")
+    calculate_average_snowfall= input("Please enter the snowfall measurement (in inches): ")
+    break 
+        
+    if snowfall_measurement >= 0.5: 
+        if snowfall_measurement != 0:
+           add : 1 
+  
+    print(f"The average snowfall is {snowfall_measurement:.2f} inches.")
+add(" snowfall measurement to the total snowfall.")
+add(" 1 to measurement count.") 
+
+if snowfall_Total >= 10 and day_Counter >= 5:
+   if answer == "no":
+    print(" error message: Please enter a valid snowfall measurement (in inches): ")
+    calculate_average_snowfall= input("Please enter the snowfall measurement (in inches): ")
+
+
+    if answer == "yes":
+     print(" analysis output: The average snowfall is {snowfall_measurement:.2f} inches.")
+    print( "Thank you for using the Snowfall Analysis Program! Goodbye!")
