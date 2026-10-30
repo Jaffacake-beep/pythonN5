@@ -1,0 +1,15 @@
+print( " How old are you")
+age = int(input("Enter your age: "))
+
+if age < 18:
+    print("Error user is not eligible.")
+    print("Come back when you are older.")
+else:
+    print("User is eligible.")
+    print( " hello you can come in")
+
+    if age < 100: 
+        print("User is too old to be eligible.")
+        print("Come back when you are older.")
+
+    

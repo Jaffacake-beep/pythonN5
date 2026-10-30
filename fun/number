@@ -1,0 +1,8 @@
+import random
+number = random.randint(1, 100)
+
+print(" guess number between 1-100")
+
+print(number) 
+
+
